@@ -64,7 +64,7 @@ function Generate({ players }) {
 
   function shuffleTeams() {
     if (team1.length === 0 || team2.length === 0) {
-      alert("Fucking loser generates teams u stupid?");
+      alert("Fucking loser generate teams first, u stupid?");
       return;
     }
 
