@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Tooltip } from "react-tooltip";
 
 function Generate({ players }) {
   const [team1, setTeam1] = useState([]);
@@ -102,13 +103,27 @@ function Generate({ players }) {
   return (
     <div className="all">
       <div className="team-gen">
-        <button className="gen-btn" onClick={teams}>
+        <button
+          data-tooltip-id="tooltips-gen"
+          data-tooltip-content="Generate teams"
+          data-tooltip-place="bottom"
+          className="gen-btn"
+          onClick={teams}
+        >
           ✔
         </button>
+        <Tooltip id="tooltips-gen" />
 
-        <button className="shuffle-btn" onClick={shuffleTeams}>
+        <button
+          data-tooltip-id="tooltips-shuffle"
+          data-tooltip-content="Shuffle teams"
+          data-tooltip-place="bottom"
+          className="shuffle-btn"
+          onClick={shuffleTeams}
+        >
           🔀
         </button>
+        <Tooltip id="tooltips-shuffle" />
       </div>
       {showTeams && (
         <div className="teams" onClick={copyToClipboard}>

@@ -1,6 +1,7 @@
 import React, { useState, useContext } from "react";
 import PlayerContext from "./PlayerContext";
 import Generate from "./Generate";
+import { Tooltip } from "react-tooltip";
 
 function Form() {
   const { players, setPlayers, setRegularPlayers } = useContext(PlayerContext);
@@ -91,10 +92,27 @@ function Form() {
               <option value="100"> Challenger</option>
             </select>
           </div>
-          <input className="button-add" type="submit" value="➕" />
-          <button className="button-regular" onClick={handleAddToRegulars}>
+
+          <input
+            data-tooltip-id="tooltips-player"
+            data-tooltip-content="Add player"
+            data-tooltip-place="left"
+            className="button-add"
+            type="submit"
+            value="➕"
+          />
+          <Tooltip id="tooltips-player" />
+
+          <button
+            data-tooltip-id="tooltips-regular"
+            data-tooltip-content="Add regular"
+            data-tooltip-place="right"
+            className="button-regular"
+            onClick={handleAddToRegulars}
+          >
             ⛺
           </button>
+          <Tooltip id="tooltips-regular" />
         </div>
       </form>
       <ul className="allPlayers">
