@@ -9,12 +9,14 @@ body {
   padding-bottom: 50px;
   height: 140vh;
   padding-left: 25px;
+  font-family: "Open-Sans", sans-serif;
 }
 
 .team-gen {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Open-Sans", sans-serif;
 }
 
 .Title {
@@ -318,11 +320,12 @@ ul {
   justify-content: center;
   align-items: center;
   background-color: #76abae;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 0px;
   margin: 5px;
   color: white;
   outline: none;
+  padding: 10px;
 }
 
 .sel {
@@ -366,7 +369,7 @@ ul {
   user-select: none;
   -webkit-user-select: none;
   vertical-align: middle;
-  margin-right: 28px;
+  margin-right: 25px;
 }
 .shuffle-btn {
   align-items: center;
@@ -400,7 +403,7 @@ ul {
   user-select: none;
   -webkit-user-select: none;
   vertical-align: middle;
-  margin-right: 22px;
+  margin-right: 28px;
 }
 
 .t1 {
