@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/saikko/static/js/main.329b11f3.js",
+    "index.html": "/saikko/index.html",
+    "main.329b11f3.js.map": "/saikko/static/js/main.329b11f3.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.329b11f3.js"
+  ]
+}
