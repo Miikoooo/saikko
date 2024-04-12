@@ -2,6 +2,7 @@ body {
   background-color: #222831;
   margin: 0px;
   padding: 0px;
+  font-family: "Open-Sans", sans-serif;
 }
 .form {
   background-color: #31363f;
@@ -49,6 +50,7 @@ body {
 ul {
   list-style-type: none;
   padding-right: 40px;
+  font-family: "Open-Sans", sans-serif;
 }
 
 .allPlayers {
@@ -77,7 +79,7 @@ ul {
   font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
     "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
     "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-    "Lucida Grande", Helvetica, Arial, sans-serif;
+    "Lucida Grande", "Open-Sans", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 600;
   justify-content: center;
@@ -112,7 +114,7 @@ ul {
   font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
     "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
     "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-    "Lucida Grande", Helvetica, Arial, sans-serif;
+    "Lucida Grande", "Open-Sans", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 600;
   justify-content: center;
@@ -146,7 +148,7 @@ ul {
   font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
     "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
     "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-    "Lucida Grande", Helvetica, Arial, sans-serif;
+    "Lucida Grande", "Open-Sans", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 600;
   justify-content: center;
@@ -180,7 +182,7 @@ ul {
   font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
     "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
     "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-    "Lucida Grande", Helvetica, Arial, sans-serif;
+    "Lucida Grande", "Open-Sans", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 600;
   justify-content: center;
@@ -216,7 +218,7 @@ ul {
   font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
     "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
     "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-    "Lucida Grande", Helvetica, Arial, sans-serif;
+    "Lucida Grande", "Open-Sans", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 600;
   justify-content: center;
@@ -271,6 +273,7 @@ ul {
 .generate {
   display: flex;
   justify-content: center;
+  font-family: "Open-Sans", sans-serif;
 }
 
 .footer {
@@ -280,16 +283,19 @@ ul {
   align-items: center;
   height: 5vh;
   padding-top: 2.5px;
+  font-family: "Open-Sans", sans-serif;
 }
 
 #sv {
   margin-left: 10px;
+  font-family: "Open-Sans", sans-serif;
 }
 
 .Ranks {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Open-Sans", sans-serif;
 }
 
 .reg {
@@ -326,6 +332,7 @@ ul {
   color: white;
   outline: none;
   padding: 10px;
+  font-family: "Open-Sans", sans-serif;
 }
 
 .sel {
@@ -335,6 +342,7 @@ ul {
   border-radius: 100px;
   border: none;
   color: white;
+  font-family: "Open-Sans", sans-serif;
 }
 
 .gen-btn {
@@ -349,7 +357,7 @@ ul {
   font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
     "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
     "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-    "Lucida Grande", Helvetica, Arial, sans-serif;
+    "Lucida Grande", "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 600;
   justify-content: center;
@@ -383,7 +391,7 @@ ul {
   font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
     "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
     "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-    "Lucida Grande", Helvetica, Arial, sans-serif;
+    "Lucida Grande", "Open Sans ", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 600;
   justify-content: center;
@@ -426,6 +434,7 @@ ul {
 .teams {
   margin-right: 15px;
   margin: 100px;
+  font-family: "Open-Sans", sans-serif;
 }
 
 .reg-btn {
@@ -440,7 +449,7 @@ ul {
   font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
     "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
     "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-    "Lucida Grande", Helvetica, Arial, sans-serif;
+    "Lucida Grande", "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 600;
   justify-content: center;
@@ -472,4 +481,5 @@ ul {
   color: white;
   text-align: center;
   margin: 5px;
+  font-family: "Open-Sans", sans-serif;
 }
