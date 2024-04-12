@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/saikko/static/js/main.329b11f3.js",
-    "index.html": "/saikko/index.html",
-    "main.329b11f3.js.map": "/saikko/static/js/main.329b11f3.js.map"
+    "main.js": "/static/js/main.329b11f3.js",
+    "index.html": "/index.html",
+    "main.329b11f3.js.map": "/static/js/main.329b11f3.js.map"
   },
   "entrypoints": [
     "static/js/main.329b11f3.js"
