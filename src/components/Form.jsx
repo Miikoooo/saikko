@@ -117,11 +117,19 @@ function Form() {
       </form>
       <ul className="allPlayers">
         {players.map((player, index) => (
-          <li id="pl" key={index} onClick={() => removePlayer(player.name)}>
+          <li
+            data-tooltip-id="tooltips-delete"
+            data-tooltip-content="Delete player"
+            data-tooltip-place="top"
+            id="pl"
+            key={index}
+            onClick={() => removePlayer(player.name)}
+          >
             {player.name}, {player.elo}
           </li>
         ))}
       </ul>
+      <Tooltip id="tooltips-delete" />
 
       <div className="generate">
         <Generate
