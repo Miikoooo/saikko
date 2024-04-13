@@ -1,5 +1,6 @@
 import React, { useContext, useState, useEffect } from "react";
 import PlayerContext from "./PlayerContext";
+import { Tooltip } from "react-tooltip";
 
 function Regulars() {
   const regular_players = {
@@ -62,17 +63,25 @@ function Regulars() {
         <ul className="reg-ul">
           {Object.keys(regularPlayers).map((player) => (
             <li
+              data-tooltip-id="tooltips-edit"
+              data-tooltip-content="Edit regular"
+              data-tooltip-place="left"
               className="reg-li"
               key={player}
               onClick={() => handlePlayerClick(player)}
             >
+              <Tooltip id="tooltips-edit" />
               {player}, {regularPlayers[player]}
               <button
+                data-tooltip-id="tooltips-regular"
+                data-tooltip-content="Add regular"
+                data-tooltip-place="right"
                 className="reg-btn"
                 onClick={(event) => handleAddToFormClick(event, player)}
               >
                 ➕
               </button>
+              <Tooltip id="tooltips-regular" />
             </li>
           ))}
         </ul>
@@ -90,9 +99,16 @@ function Regulars() {
             onChange={(e) => setNewElo(e.target.value)}
           />
           <div>
-            <button className="reg-btn" onClick={handleSaveClick}>
+            <button
+              data-tooltip-id="tooltips-save"
+              data-tooltip-content="Save changes"
+              data-tooltip-place="right"
+              className="reg-btn"
+              onClick={handleSaveClick}
+            >
               ✅
             </button>
+            <Tooltip id="tooltips-save" />
           </div>
         </div>
       )}

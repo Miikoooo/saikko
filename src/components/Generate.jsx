@@ -128,7 +128,14 @@ function Generate({ players }) {
       {showTeams && (
         <div className="teams" onClick={copyToClipboard}>
           <div className="t1">
-            <h2>Team 1</h2>
+            <h2
+              data-tooltip-id="tooltips-t1"
+              data-tooltip-content="Copy teams"
+              data-tooltip-place="top"
+            >
+              Team 1
+            </h2>
+            <Tooltip id="tooltips-t1" />
             <div className="nt1">
               {team1.reduce((sum, player) => sum + player.elo, 0)}
               {team1.map((player, index) => (
@@ -137,7 +144,14 @@ function Generate({ players }) {
             </div>
           </div>
           <div className="t2">
-            <h2>Team 2</h2>
+            <h2
+              data-tooltip-id="tooltips-t2"
+              data-tooltip-content="Copy teams"
+              data-tooltip-place="top"
+            >
+              Team 2
+            </h2>
+            <Tooltip id="tooltips-t2" />
             <div className="nt2">
               {team2.reduce((sum, player) => sum + player.elo, 0)}
               {team2.map((player, index) => (
