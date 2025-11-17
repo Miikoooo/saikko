@@ -4,11 +4,11 @@ Input Field:
 
 Dropdown Menu:
 
-    Select your Ranked in Leauge, if you do not have a ranked pick your last rank, if you where never ranked do a serious choice of your gameplay.
+    Select your Ranked in Leauge, if you do not have a ranked pick your last rank, if you where never ranked do a serious choice based of your gameplay.
 
 Player Array:
 
-    After you add players you will see them listed, if you want to remove them just do a left click.
+    After you add players you will see them listed, if you want to remove them just do a left click on the name of a player.
 
 Plus Symbol:
 
@@ -29,7 +29,8 @@ Shuffle Symbol:
 Regulars Button:
 
     Opens and Closes a Menu of Regulars Name of Regulars:
-        If the name got left clicked you can change their name and theri elo aswell press the check symbol to confirm. Plus Botton:
+        If the name isleft clicked you can change the name and the elo as well. Press the check symbol to confirm. 
+        Plus Botton:
         Adds the Regular to the Player Array
 
 Team's Display:
