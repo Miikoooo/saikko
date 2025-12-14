@@ -1,7 +1,7 @@
 body {
   background-color: #222831;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   font-family: "Open-Sans", sans-serif;
 }
 .form {
@@ -86,11 +86,9 @@ ul {
   line-height: 20px;
   max-width: 480px;
   min-height: 40px;
-  min-width: 0px;
+  min-width: 0;
   overflow: hidden;
-  padding: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0 20px;
   text-align: center;
   touch-action: manipulation;
   transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
@@ -121,11 +119,9 @@ ul {
   line-height: 20px;
   max-width: 480px;
   min-height: 40px;
-  min-width: 0px;
+  min-width: 0;
   overflow: hidden;
-  padding: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0 20px;
   text-align: center;
   touch-action: manipulation;
   transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
@@ -155,11 +151,9 @@ ul {
   line-height: 20px;
   max-width: 480px;
   min-height: 40px;
-  min-width: 0px;
+  min-width: 0;
   overflow: hidden;
-  padding: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0 20px;
   text-align: center;
   touch-action: manipulation;
   transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
@@ -189,11 +183,9 @@ ul {
   line-height: 20px;
   max-width: 480px;
   min-height: 40px;
-  min-width: 0px;
+  min-width: 0;
   overflow: hidden;
-  padding: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0 20px;
   text-align: center;
   touch-action: manipulation;
   transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
@@ -225,11 +217,9 @@ ul {
   line-height: 20px;
   max-width: 480px;
   min-height: 40px;
-  min-width: 0px;
+  min-width: 0;
   overflow: hidden;
-  padding: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0 20px;
   text-align: center;
   touch-action: manipulation;
   transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
@@ -282,7 +272,7 @@ ul {
   justify-content: center;
   align-items: center;
   height: 5vh;
-  padding-top: 2.5px;
+  padding-top: 3px;
   font-family: "Open-Sans", sans-serif;
 }
 
@@ -325,7 +315,7 @@ ul {
   align-items: center;
   background-color: #76abae;
   border-radius: 10px;
-  border: 0px;
+  border: 0;
   margin: 5px;
   color: white;
   outline: none;
@@ -362,11 +352,9 @@ ul {
   line-height: 20px;
   max-width: 480px;
   min-height: 40px;
-  min-width: 0px;
+  min-width: 0;
   overflow: hidden;
-  padding: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0 20px;
   text-align: center;
   touch-action: manipulation;
   transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
@@ -396,11 +384,9 @@ ul {
   line-height: 20px;
   max-width: 480px;
   min-height: 40px;
-  min-width: 0px;
+  min-width: 0;
   overflow: hidden;
-  padding: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0 20px;
   text-align: center;
   touch-action: manipulation;
   transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
@@ -430,7 +416,6 @@ ul {
 }
 
 .teams {
-  margin-right: 15px;
   margin: 100px;
   font-family: "Open-Sans", sans-serif;
 }
@@ -454,11 +439,9 @@ ul {
   line-height: 20px;
   max-width: 480px;
   min-height: 40px;
-  min-width: 0px;
+  min-width: 0;
   overflow: hidden;
-  padding: 0px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 0 10px;
   text-align: center;
   touch-action: manipulation;
   transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
@@ -474,7 +457,7 @@ ul {
 .reg-input {
   background-color: #76abae;
   border-radius: 5px;
-  border: 0px;
+  border: 0;
   outline: none;
   color: white;
   text-align: center;
